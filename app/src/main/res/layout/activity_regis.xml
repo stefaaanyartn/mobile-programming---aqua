@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".regis">
+
+    <EditText
+        android:id="@+id/kotaknamalengkap"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectanglelogin"
+        android:drawableStart="@drawable/headresize"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/montserrat"
+        android:hint="Masukkan Nama Anda"
+        android:paddingStart="15dp"
+        android:textAllCaps="false"
+        android:textColorHint="@android:color/transparent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.262"
+        tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints,RtlSymmetry,TextFields" />
+
+    <EditText
+        android:id="@+id/kotakemailregis"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectanglelogin"
+        android:drawableStart="@drawable/email"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/montserrat"
+        android:hint="Masukkan Kata Sandi"
+        android:paddingStart="15dp"
+        android:textAllCaps="false"
+        android:textColorHint="@android:color/transparent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38"
+        tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints,RtlSymmetry,TextFields" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/kotamata"
+        android:layout_width="332dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="#1A529D"
+        app:startIconTint="#1A529D"
+        tools:ignore="MissingConstraints">
+
+    <EditText
+        android:id="@+id/kotakkatasandi"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectanglelogin"
+        android:drawableStart="@drawable/lockpw"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/montserrat"
+        android:hint=" "
+        android:paddingStart="15dp"
+        android:textAllCaps="false"
+        android:textColorHint="@android:color/transparent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625"
+        tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints,RtlSymmetry,TextFields" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/kotakmatakatasandi"
+        android:layout_width="332dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="#1A529D"
+        app:startIconTint="#1A529D"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/kotakkonfirmasi"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rectanglelogin"
+            android:drawableStart="@drawable/lockpw"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/montserrat"
+            android:hint="  "
+            android:paddingStart="15dp"
+            android:textAllCaps="false"
+            android:textColorHint="@android:color/transparent"
+            android:textSize="18sp"
+            tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints,RtlSymmetry,TextFields" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/kotakregislanjut"
+        android:layout_width="307dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/kotakbiru"
+        android:fontFamily="@font/montserrat"
+        android:onClick="regis"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847"
+        tools:ignore="HardcodedText,MissingConstraints,Onclick,UsingOnClickInXml,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Email"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textKatasandi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Kata Sandi"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textKonfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Konfirmasi Kata Sandi"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Register"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/panah1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="kembali"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066"
+        app:srcCompat="@drawable/gambarpanah"
+        tools:ignore="ContentDescription,MissingConstraints,UsingOnClickInXml,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Nama Lengkap"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

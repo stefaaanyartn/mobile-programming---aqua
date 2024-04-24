@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/gambargunung"
+    android:paddingRight="0dp"
+    android:paddingLeft="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/groupbawah"
+        android:layout_width="470dp"
+        android:layout_height="575dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="-20dp"
+        android:layout_marginBottom="-53dp"
+        app:srcCompat="@drawable/groupbawah" />
+
+    <ImageView
+        android:id="@+id/aquabotol"
+        android:layout_width="331dp"
+        android:layout_height="702dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="-323dp"
+        app:srcCompat="@drawable/aquabotol" />
+
+    <ImageView
+        android:id="@+id/logoaqua"
+        android:layout_width="659dp"
+        android:layout_height="816dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-108dp"
+        android:layout_marginTop="-161dp"
+        android:layout_marginEnd="-147dp"
+        android:layout_marginBottom="92dp"
+        app:srcCompat="@drawable/logoaqua" />
+
+    <ImageView
+        android:id="@+id/kebaikan"
+        android:layout_width="209dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="388dp"
+        app:srcCompat="@drawable/kebaikan" />
+
+    <ImageView
+        android:id="@+id/terpercaya"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="329dp"
+        app:srcCompat="@drawable/terpercaya" />
+
+
+    <ImageButton
+        android:id="@+id/loginregist"
+        android:layout_width="86dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="259dp"
+        android:background="@drawable/tombol"
+        app:srcCompat="@drawable/tombol"
+        tools:ignore="InvalidId" />
+
+
+</RelativeLayout>
+
+
