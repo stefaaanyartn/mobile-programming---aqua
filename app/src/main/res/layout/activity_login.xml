@@ -37,7 +37,7 @@
         android:layout_centerHorizontal="true"
         android:background="@drawable/kotakbiru"
         android:fontFamily="@font/montserrat"
-        android:onClick="login"
+        android:onClick="loginn"
         android:text="Login"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"

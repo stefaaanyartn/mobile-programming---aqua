@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.tugas2aqua">
         <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
             android:name=".regis"
             android:exported="false" />
         <activity
