@@ -47,5 +47,21 @@ public class home extends AppCompatActivity {
         }
 
     }
+    public void openscan (View view){
+        Intent intent = new Intent(home.this, halaman7.class);
+        startActivity(intent);
+    }
+    public void rdmvgz (View view){
+        Intent intent = new Intent(home.this, halamanredeen.class);
+        startActivity(intent);
+    }
+    public void eksvgz (View view){
+        Intent intent = new Intent(home.this, selamat2.class);
+        startActivity(intent);
+    }
+    public void rylvgzz (View view){
+        Intent intent = new Intent(home.this, royalvaganza.class);
+        startActivity(intent);
+    }
 }
 

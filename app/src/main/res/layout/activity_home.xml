@@ -93,8 +93,8 @@
                 app:layout_constraintHorizontal_bias="0.93"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView13"
-                tools:layout_editor_absoluteY="281dp"
-                tools:ignore="MissingConstraints">
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="281dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -110,13 +110,21 @@
                         tools:layout_editor_absoluteX="-152dp"
                         tools:layout_editor_absoluteY="267dp" />
 
-                    <ImageView
+                    <ImageButton
                         android:id="@+id/tutupbotol"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/frame3666"
-                        tools:layout_editor_absoluteX="54dp"
-                        tools:layout_editor_absoluteY="267dp" />
+                        android:background="@drawable/frame3666"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="openscan"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.057"
+                        tools:ignore="ContentDescription,UsingOnClickInXml" />
 
                     <ImageView
                         android:id="@+id/family"
@@ -199,57 +207,51 @@
                 app:layout_constraintVertical_bias="0.467"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                android:id="@+id/imageView26"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.083"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/imageView"
-                app:layout_constraintVertical_bias="0.561"
-                app:srcCompat="@drawable/group378"
-                tools:ignore="ContentDescription" />
 
-            <ImageView
-                android:id="@+id/imageView27"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <ImageButton
+                android:id="@+id/imageButtonrdm"
+                android:layout_width="360dp"
+                android:layout_height="133dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="823dp"
+                android:layout_marginEnd="17dp"
+                android:layout_marginBottom="737dp"
+                android:onClick="rdmvgz"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.95"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.561"
-                app:srcCompat="@drawable/group379"
-                tools:ignore="ContentDescription" />
+                app:srcCompat="@drawable/redeemvaganza" />
 
-            <ImageView
-                android:id="@+id/imageView28"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <ImageButton
+                android:id="@+id/imageButtoneks"
+                android:layout_width="360dp"
+                android:layout_height="133dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="990dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="569dp"
+                android:onClick="eksvgz"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.083"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.726"
-                app:srcCompat="@drawable/group380"
-                tools:ignore="ContentDescription" />
+                app:srcCompat="@drawable/ekstravgz" />
 
-            <ImageView
-                android:id="@+id/imageView29"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <ImageButton
+                android:id="@+id/imageButtonryl"
+                android:layout_width="360dp"
+                android:layout_height="133dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="1152dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="408dp"
+                android:onClick="rylvgzz"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.95"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.726"
-                app:srcCompat="@drawable/group381"
-                tools:ignore="ContentDescription" />
+                app:srcCompat="@drawable/royalvaganza" />
 
             <ImageView
                 android:id="@+id/imageView32"
@@ -294,20 +296,36 @@
                 app:layout_constraintVertical_bias="0.796"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                android:id="@+id/imageView34"
+
+            <ImageButton
+                android:id="@+id/surprise"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="1368dp"
+                android:background="@drawable/group382"
+                android:onClick="gift"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.557"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/imageView"
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/group382"
-                tools:ignore="ContentDescription" />
+                tools:ignore="ContentDescription,UsingOnClickInXml" />
 
+            <ImageButton
+                android:id="@+id/surprise2"
+                android:layout_width="365dp"
+                android:layout_height="123dp"
+                android:layout_marginTop="1368dp"
+                android:background="@drawable/gift2"
+                android:onClick="gift"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.466"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView"
+                app:layout_constraintVertical_bias="0.746"
+                tools:ignore="ContentDescription,UsingOnClickInXml" />
 
             <ImageButton
                 android:id="@+id/hamburger1"
@@ -325,6 +343,7 @@
                 app:layout_constraintVertical_bias="0.057"
                 app:srcCompat="@drawable/hamburger"
                 tools:ignore="ContentDescription,UsingOnClickInXml" />
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
